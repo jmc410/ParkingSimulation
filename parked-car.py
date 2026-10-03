@@ -33,6 +33,46 @@ class ParkedCar():
         else:
             self._make = make
 
+    @property
+    def model(self) -> str:
+        return self._model
+
+    @model.setter
+    def model(self, model: str):
+        if not isinstance(model, str):
+            raise TypeError
+        elif not model or not model.strip():
+            raise ValueError
+        else:
+            self._model = model
     
+
+    @property
+    def color(self) -> str:
+        return self._color
+
+    @color.setter
+    def color(self, color: str):
+        if not isinstance(color, str):
+            raise TypeError
+        elif not color or not color.strip():
+            raise ValueError
+        else:
+            self._color = color
+
+    @property
+    def license_number(self) -> str:
+        return self._license_number
+
+    @license_number.setter
+    def license_number(self, license_number: str):
+        if not isinstance(license_number, str):
+            raise TypeError
+        elif not license_number or not license_number.strip():
+            raise ValueError
+        else:
+            self._license_number = license_number
+
+
 
     

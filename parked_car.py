@@ -9,10 +9,12 @@ class ParkedCar():
 
     @property
     def minutes_parked(self) -> int:
+        """Returns the number of minutes parked."""
         return self._minutes_parked
 
     @minutes_parked.setter
     def minutes_parked(self, minutes: int):
+        """Sets the number of minutes parked."""
         if not isinstance(minutes, int):
             raise TypeError
         elif not (0 <= minutes):

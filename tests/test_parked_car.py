@@ -24,7 +24,7 @@ class UnittestParkedCar(unittest.TestCase):
         self.assertEqual(result, 60)
 
 
-def test_property_reassignment(self):
+    def test_property_reassignment(self):
         car = ParkedCar("Toyota", "Camry", "Blue", "L1C3NSEPLT", 60)
 
         car.make = "Honda"

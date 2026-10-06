@@ -21,7 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="parking_meter.py" />
     <Compile Include="parked_car.py" />
+    <Compile Include="tests\module1.py" />
     <Compile Include="tests\test_parked_car.py" />
     <Compile Include="tests\__init__.py" />
   </ItemGroup>

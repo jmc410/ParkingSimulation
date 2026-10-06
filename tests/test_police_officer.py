@@ -133,3 +133,8 @@ class UnittestPoliceOfficer(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
+
+
+
+
+    # Self reminder: python -m unittest discover -s tests -v
